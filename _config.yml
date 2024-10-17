@@ -1,8 +1,8 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
+title: Basic Alogrithm for C
+email: w2442658418@163.com
 url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Welcome to Algorithm Hub , where everyone—from budding coders to seasoned developers—can explore, learn, and share algorithms. This vibrant platform  is designed to be a treasure trove of algorithmic knowledge, where you can discover practical resources , engage with fellow learners , and contribute to a growing community of enthusiasts ."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -10,7 +10,7 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: Ezra-Wan
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
