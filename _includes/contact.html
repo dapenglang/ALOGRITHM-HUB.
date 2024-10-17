@@ -2,18 +2,21 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Got questions? Suggestions? Or just want to say hi? We'd love to hear from you! Whether it's a quick chat or a brainstorming session, drop us a line anytime. Your feedback helps us grow and improve.
-</p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    {% for network in site.social %}
-                    <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                    </li>
-                    {% endfor %}
-                </ul>
+                <h2>Contributors</h2>
+                <ul style="color: white;">
+        <li>
+            <strong>Ezra Wan:</strong> Project initiator, responsible for overall architecture design and core functionality development.
+        </li>
+        <li>
+            <strong>Alice Zhang:</strong> Responsible for tutorial content creation and technical documentation.
+        </li>
+        <li>
+            <strong>Tom Li:</strong> Involved in code reviews and testing, optimizing user experience.
+        </li>
+        <li>
+            <strong>Sophia Chen:</strong> Responsible for frontend design and user interface optimization, enhancing visual appeal.
+        </li>
+    </ul>
             </div>
         </div>
     </section>
