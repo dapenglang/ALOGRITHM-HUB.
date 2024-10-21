@@ -372,18 +372,17 @@ body {
 }
 
 .module-list li {
-    position: left;
+    position: relative; /* 使用相对定位 */
     padding-left: 0em; /* 为缩进留出空间 */
 }
 
 .module-list li strong {
     display: inline-block;
-    width: 200px; /* 根据标题长度调整宽度 */
+    width: 300px; /* 增加标题部分的宽度 */
     font-weight: bold; /* 加粗标题 */
 }
 
 .module-list li .description {
     display: block;
-    margin-left: 200px; /* 根据标题长度调整缩进 */
+    margin-left: 320px; /* 增加描述部分的左边距，以适应更宽的标题部分 */
 }
-css
