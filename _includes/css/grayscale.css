@@ -365,3 +365,23 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.module-list {
+    color: white;
+    font-size: 18px;
+}
+
+.module-list li {
+    position: relative;
+    padding-left: 2em; /* 为缩进留出空间 */
+}
+
+.module-list li strong {
+    display: inline-block;
+    width: 150px; /* 根据标题长度调整宽度 */
+}
+
+.module-list li .description {
+    display: block;
+    margin-left: 150px; /* 根据标题长度调整缩进 */
+}
