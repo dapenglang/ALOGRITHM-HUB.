@@ -366,23 +366,3 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-.module-list {
-    color: white;
-    font-size: 18px;
-}
-
-.module-list li {
-    position: relative; /* 使用相对定位 */
-    padding-left: 0em; /* 为缩进留出空间 */
-}
-
-.module-list li strong {
-    display: inline-block;
-    width: 300px; /* 增加标题部分的宽度 */
-    font-weight: bold; /* 加粗标题 */
-}
-
-.module-list li .description {
-    display: block;
-    margin-left: 320px; /* 增加描述部分的左边距，以适应更宽的标题部分 */
-}
