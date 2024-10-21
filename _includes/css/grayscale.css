@@ -366,22 +366,27 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+/* styles.css */
 .module-list {
     color: white;
     font-size: 18px;
+    list-style-type: none; /* 移除列表符号 */
 }
 
 .module-list li {
-    position: relative;
-    padding-left: 2em; /* 为缩进留出空间 */
+    display: flex; /* 使用 Flexbox 布局 */
+    align-items: center; /* 垂直居中对齐 */
+    margin-bottom: 1rem; /* 每个列表项之间的间距 */
 }
 
-.module-list li strong {
-    display: inline-block;
-    width: 200px; /* 根据标题长度调整宽度 */
+.module-title {
+    width: 150px; /* 固定标题的宽度 */
+    text-align: right; /* 标题右对齐 */
+    white-space: nowrap; /* 防止标题换行 */
+    overflow: hidden; /* 隐藏超出部分 */
+    text-overflow: ellipsis; /* 显示省略号 */
 }
 
-.module-list li .description {
-    display: block;
-    margin-left: 200px; /* 根据标题长度调整缩进 */
+.module-description {
+    margin-left: 15px; /* 描述部分与标题之间的间距 */
 }
