@@ -373,17 +373,17 @@ body {
 
 .module-list li {
     position: relative;
-    padding-left: 5em; /* 为缩进留出空间 */
+    padding-left: 100em; /* 为缩进留出空间 */
 }
 
 .module-list li strong {
     display: inline-block;
-    width: 150px; /* 根据标题长度调整宽度 */
+    width: 120px; /* 根据标题长度调整宽度 */
     font-weight: bold; /* 加粗标题 */
 }
 
 .module-list li .description {
     display: block;
-    margin-left: 150px; /* 根据标题长度调整缩进 */
+    margin-left: 120px; /* 根据标题长度调整缩进 */
 }
 css
